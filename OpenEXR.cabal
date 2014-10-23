@@ -33,6 +33,5 @@ library
 
   ghc-options: -Wall -fwarn-tabs -O2
 
-  -- TODO: autotools?
-  extra-libraries: IlmImf
+  pkgconfig-depends: IlmBase, OpenEXR
 
