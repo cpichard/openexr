@@ -31,7 +31,7 @@ library
     Graphics.OpenEXR.Half
     Graphics.OpenEXR.Raw
 
-  ghc-options: -Wall -fwarn-tabs -O2
+  ghc-options: -Wall -fwarn-tabs -O2 -ddump-simpl-stats
 
   pkgconfig-depends: IlmBase, OpenEXR
 
